@@ -6,11 +6,12 @@
     of the program.
 */
 
-if (process.argv.length <= 2) {
-    process.stderr.write("Missing argument\n");
-    process.stderr.write("Usage: ./1-print_square.js <size>\n");
-    process.stderr.write("Example: ./1-print_square.js 8\n");
-    process.exit(1);
+if (process.argv.length <= 2)
+{
+	process.stderr.write("Missing argument\n");
+	process.stderr.write("Usage: ./1-print_square.js <size>\n");
+	process.stderr.write("Example: ./1-print_square.js 8\n");
+	process.exit(1);
 }
 
 let size = parseInt(process.argv[2]);
